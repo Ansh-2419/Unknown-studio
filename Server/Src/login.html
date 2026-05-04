@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Unknown Studio</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div id="navbar"></div>
+
+  <main>
+    <div class="login-box-page">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <p class="error" id="errorMsg"></p>
+      <p class="signup">No account? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../script.js"></script>
+  <script src="../navbar.js"></script>
+  <script src="../footer.js"></script>
+  <script>
+    loadNavbar("");
+    loadFooter();
+  </script>
+
+</body>
+</html>
